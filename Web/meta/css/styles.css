@@ -1,0 +1,58 @@
+  body {
+  	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+  }
+
+  main {
+  	flex: 1 0 auto;
+  }
+  footer.page-footer{
+  	padding-top: 0px;
+  }
+  footer .footer-info{
+  	margin-top: 20px;
+  }
+  .card{
+  	margin-top: 0px;
+  }
+  .brand-logo img {
+  	width: 100%;
+  }
+  #logo-container{
+  	height: 57px;
+  }
+  ul.side-nav.fixed li.logo{
+  	height: 64px;
+  }
+  .side-nav .logo a:hover {
+  	background-color: transparent;
+  }
+  .side-nav .input-field{
+  	width: 95%;
+  	transition: 0.5s;
+  	padding-left: 5px;
+  	padding-right: 5px;
+  	border: transparent;
+  	margin: 0px;
+  }
+  .active-green{
+  	background-color: #8bc34a;
+  }
+  .active-dark-green{
+  	background-color: #33691e;
+  }
+  .side-nav .material-icons{
+  	font-size: 35px;
+  	margin: 0px;
+  	padding: 0px;
+  }
+
+  header, main, footer {
+  	padding-left: 300px;
+  }
+  @media only screen and (max-width : 992px) {
+  	header, main, footer {
+  		padding-left: 0;
+  	}
+  }
